@@ -15,6 +15,7 @@
 		2269C0C01F7160EE0086138F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2269C0BE1F7160EE0086138F /* LaunchScreen.storyboard */; };
 		2269C0CB1F7160EE0086138F /* FactsNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269C0CA1F7160EE0086138F /* FactsNorrisTests.swift */; };
 		2269C0D61F7160EE0086138F /* FactsNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269C0D51F7160EE0086138F /* FactsNorrisUITests.swift */; };
+		EC59CD3F1F962F960018F168 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC59CD3E1F962F960018F168 /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		2269C0D11F7160EE0086138F /* FactsNorrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactsNorrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2269C0D51F7160EE0086138F /* FactsNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsNorrisUITests.swift; sourceTree = "<group>"; };
 		2269C0D71F7160EE0086138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC59CD3E1F962F960018F168 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				2269C0BC1F7160EE0086138F /* Assets.xcassets */,
 				2269C0BE1F7160EE0086138F /* LaunchScreen.storyboard */,
 				2269C0C11F7160EE0086138F /* Info.plist */,
+				EC59CD3E1F962F960018F168 /* FavoritesViewController.swift */,
 			);
 			path = FactsNorris;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				2269C0B81F7160EE0086138F /* SecondViewController.swift in Sources */,
 				2269C0B41F7160EE0086138F /* AppDelegate.swift in Sources */,
+				EC59CD3F1F962F960018F168 /* FavoritesViewController.swift in Sources */,
 				2269C0B61F7160EE0086138F /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +513,7 @@
 				2269C0DC1F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2269C0DD1F7160EE0086138F /* Build configuration list for PBXNativeTarget "FactsNorrisTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				2269C0DF1F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2269C0E01F7160EE0086138F /* Build configuration list for PBXNativeTarget "FactsNorrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				2269C0E21F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
