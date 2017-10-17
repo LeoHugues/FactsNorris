@@ -15,6 +15,8 @@
 		2269C0C01F7160EE0086138F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2269C0BE1F7160EE0086138F /* LaunchScreen.storyboard */; };
 		2269C0CB1F7160EE0086138F /* FactsNorrisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269C0CA1F7160EE0086138F /* FactsNorrisTests.swift */; };
 		2269C0D61F7160EE0086138F /* FactsNorrisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2269C0D51F7160EE0086138F /* FactsNorrisUITests.swift */; };
+		22CEB4CA1F962EC400655AD3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 22CEB4C81F962EC400655AD3 /* Default.png */; };
+		22CEB4CB1F962EC400655AD3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22CEB4C91F962EC400655AD3 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2269C0D11F7160EE0086138F /* FactsNorrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactsNorrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2269C0D51F7160EE0086138F /* FactsNorrisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsNorrisUITests.swift; sourceTree = "<group>"; };
 		2269C0D71F7160EE0086138F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CEB4C81F962EC400655AD3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../Default.png; sourceTree = "<group>"; };
+		22CEB4C91F962EC400655AD3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../../../Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 		2269C0A71F7160EE0086138F = {
 			isa = PBXGroup;
 			children = (
+				22CEB4C81F962EC400655AD3 /* Default.png */,
+				22CEB4C91F962EC400655AD3 /* Default@2x.png */,
 				2269C0B21F7160EE0086138F /* FactsNorris */,
 				2269C0C91F7160EE0086138F /* FactsNorrisTests */,
 				2269C0D41F7160EE0086138F /* FactsNorrisUITests */,
@@ -191,20 +197,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Julien Mathé";
 				TargetAttributes = {
 					2269C0AF1F7160EE0086138F = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					2269C0C51F7160EE0086138F = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2269C0AF1F7160EE0086138F;
 					};
 					2269C0D01F7160EE0086138F = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 2269C0AF1F7160EE0086138F;
 					};
@@ -237,7 +246,9 @@
 			files = (
 				2269C0C01F7160EE0086138F /* LaunchScreen.storyboard in Resources */,
 				2269C0BD1F7160EE0086138F /* Assets.xcassets in Resources */,
+				22CEB4CB1F962EC400655AD3 /* Default@2x.png in Resources */,
 				2269C0BB1F7160EE0086138F /* Main.storyboard in Resources */,
+				22CEB4CA1F962EC400655AD3 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FactsNorris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EPSI.FactsNorris;
@@ -428,6 +440,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = FactsNorris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = EPSI.FactsNorris;
@@ -509,6 +522,7 @@
 				2269C0DC1F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2269C0DD1F7160EE0086138F /* Build configuration list for PBXNativeTarget "FactsNorrisTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +531,7 @@
 				2269C0DF1F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2269C0E01F7160EE0086138F /* Build configuration list for PBXNativeTarget "FactsNorrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +540,7 @@
 				2269C0E21F7160EE0086138F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
